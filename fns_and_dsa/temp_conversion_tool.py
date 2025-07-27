@@ -16,4 +16,4 @@ unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 match unit:
   case "C": convert_to_fahrenheit(temp)
   case "F": convert_to_celsius(temp)
-  case _: print("Invalid unit")
+  case _: print("Invalid temperature. Please enter a numeric value.")
