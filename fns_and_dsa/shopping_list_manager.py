@@ -1,10 +1,10 @@
 
 def display_menu():
   print("Shopping List Manager")
-  print("Type 1 to Add Item")
-  print("Type 2 to Remove Item")
-  print("Type 3 to View List")
-  print("Type 4 to Exit")
+  print("1. Add Item")
+  print("2. Remove Item")
+  print("3. View List")
+  print("4. Exit")
 
   
 
