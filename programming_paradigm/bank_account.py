@@ -4,12 +4,12 @@ class BankAccount:
     self.account_balance = initial_balance
 
   def deposit(self, amount):
-    amount = float(amount)
+    # amount = float(amount)
     self.account_balance += amount
     return self.account_balance
   
   def withdraw(self, amount):
-    amount = float(amount)
+    # amount = float(amount)
     balance = self.account_balance - amount
     if (balance >= 0):
       self.account_balance = balance
@@ -18,5 +18,5 @@ class BankAccount:
       return False
 
   def display_balance(self):
-    print(f"Current Balance: ${self.account_balance}")
+    print(f"Current Balance: ${self.account_balance}.00")
   
